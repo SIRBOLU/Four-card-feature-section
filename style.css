@@ -69,6 +69,7 @@ bottom: 10% ;
 } */
  .container{
   width: 80%;
+  margin: 2rem 0;
  }
 .container .title{
   text-align: center;
@@ -96,6 +97,7 @@ bottom: 10% ;
   border-top: 4px solid var(--Cyan);
   border-radius: 5px;
   padding: 1.5rem;
+  box-shadow: 0 10px 20px rgb(178, 178, 185);
 }
 .container .boxes .col1 .bold{
   padding-bottom: 10px;
@@ -107,12 +109,14 @@ bottom: 10% ;
 }
 .container .boxes .col2 .up, .down{
   border-top: 4px solid var(--Red);
+  box-shadow: 0 10px 20px rgb(178, 178, 185);
 }
 .container .boxes .col2 .down{
   border-top: 4px solid var(--Orange);
 }
 .container .boxes .col3{
   border-top: 4px solid var(--Blue);
+  box-shadow: 0 10px 20px rgb(178, 178, 185);
 }
 footer{
   position: absolute;
